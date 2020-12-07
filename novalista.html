@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./imagens/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./novalista.css">
+  <title>Daily Planner</title>
+</head>
+
+<body>
+
+
+  <div class="conteudo">
+    <div class="topoConteudo">
+      <div class="container">
+        <h1>Daily Planner</h1>
+        <form>
+          <input type="text" name="tarefa" id="tarefa" placeholder="Adicionar tarefa">
+          <input type="button" value="Adicionar" onclick="addTarefa();">
+        </form>
+        <p>*Clique sobre a tarefa para marcar como concluída.</p>
+      </div>
+    </div>
+    <div>
+      <div class="container">
+        <ul id="minhaLista"></ul>
+        <input type="button" value="Limpar lista" id="limparBtn" onclick="limparLista();">
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./novalista.js" defer></script>
+</body>
+
+</html>

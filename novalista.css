@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.topoConteudo {
+  padding-top: 20px;
+  background-image: url(./imagens/modern-weekly-planner-template-with-flat-design/448009-PFEX5R-469.jpg);
+  background-position: fixed;
+}
+
+.container {
+  width: 750px;
+  margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+  color: #f8f7f7;
+  font-family: fantasy;
+  font-size: 30pt;
+}
+
+p{
+  line-height: 5;
+  margin-bottom: 20px;
+  font-size: 13pt;
+  color:  #ffffff;
+}
+
+li {
+  width: 50;
+  align-content: center;
+  margin: 2px;
+  line-height: .5;
+  background-color: #eddcd2;
+  border: 1px solid #8a5a44;
+  padding: 10px 10px 10px 10px;
+  font-size: 14px;
+  list-style-type: none;
+  color: #8a5a44;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type=text]{
+  color: #8a5a44;
+  margin: 0;
+  border: #8a5a44;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+input[type=button]{
+  padding: 10px;
+  border: none;
+  width: 22%;
+  background: #cb997e;
+  border: 1px solid #8a5a44;
+  color: #f9f9f9;
+  float: right;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;  
+}
+
+input[type=button]:hover{
+  background: #eddcd2;
+  border: 1px solid #8a5a44;
+}
+
+button, input[type=button]{ cursor: pointer}
+
+button{
+  float: right;
+  background: #eddcd2;
+  color: #8a5a44; 
+}
+
+.tarefaConcluida{
+  text-decoration: line-through double; color: #8a5a44;
+  
+}
+
